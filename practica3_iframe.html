@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practica 3 Iframe</title>
+		<style>
+			table{
+				margin: auto;
+				width: 75%;
+            	border: 2px solid black;
+            	text-align: center;
+			}
+			
+		</style>
+</head>
+	<header>
+		<h1 style="text-align: center; font-size: 90px; color: #462077; font-family: georgia"><b>aespa</b></h1>
+	</header>
+<body style="background:linear-gradient(to bottom,#fcb9f1,#f664b7) ">
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img src="karina.png" onclick="cargarImagen('karina.png')" alt="karina"></td>
+				<td><img src="ningning.png" onclick="cargarImagen('ningning.png')" alt="ningning"></td>
+				<td><img src="gisell.png" onclick="cargarImagen('gisell.png')" alt="gisell"></td>
+				<td><img src="winter.png" onclick="cargarImagen('winter.png')" alt="winter"></td>
+			</tr>
+			<tr>
+				<td colspan="4"; style="text-align: center;">
+					<iframe id= "visor" ></iframe>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+			<script>
+
+        function cargarImagen(imagen) {
+            document.getElementById("visor").src = imagen;
+        }
+    </script>
+</body>
+</html>
+
