@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body style="background-color: #bedae2">
+	<h1 style="text-align: center;">Volkswagen Potosina</h1>
+	<h3 style="text-align: center;">Compras online</h3>
+	<form >
+		<fieldset style="place-items: center">
+			<legend>Informacion general del cliente</legend>
+				<table style="border-spacing:0 20px">
+					<tr>
+						<td>
+							<label for="nombre">Nombre</label>
+							<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+						</td>
+						<td>
+							<label for="apepat">Apellido Paterno</label><br>
+							<input type="text" name="apepat" id="apepat" placeholder="Apellido Paterno">
+						</td>
+						<td>
+							<label for="apemat">Apellido Materno</label><br>
+							<input type="text" name="apemat" id="apemat" placeholder="Apellido Materno">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="usuario">Nombre del Usuario</label><br>
+							<input type="text" name="usuario" id="usuario" placeholder="Usuario">
+						</td>
+						<td>
+							<label for="contrasena">Password</label>
+							<input type="Password" name="contrasena" id="crontrasena" placeholder="Password">
+						</td>
+						<td>
+							<label for="fechaRegistro">Fecha de registro</label>
+							<input type="date" name="fechaRegistro" id="fechaRegistro">
+						</td>
+					</tr>
+				</table>
+		</fieldset>
+		<fieldset style="place-items: center">
+			<legend>Datos para facturar</legend>
+				<table style="border-spacing:0 20px">
+					<tr>
+						<td>
+							<label for="pais">Pais</label><br>
+								<select name="pais" id="pais" size="3">
+									<option value="mexico">Mexico</option>
+									<option value="canada">Canada</option>
+									<option value="reinoUnido">Reino Unido</option>
+								</select>
+
+						</td>
+						<td>
+							<label for="ciudad">Ciudad</label><br>
+							<select name="ciudad" id="ciudad" size="3">
+								<option value="slp">San Luis Potosi</option>
+								<option value="monterrey">Monterrey</option>
+								<option value="cd.valles">Cd. Valles</option>
+							</select>
+						</td>
+						<td>
+							<label for="calle">Calle</label><br>
+								<input type="text" name="calle" id="calle" placeholder="Calle">	
+								</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="numCasa">Numero de casa</label><br>
+							<input type="text" name="numCasa" id="numCasa" placeholder="Numero exterior">
+						</td>
+						<td>
+							<label for="colonia">Colonia</label><br>
+							<input type="text" name="colonia" id="colonia" placeholder="Colonia">
+						</td>
+						<td>
+							<label for="mail">E-mail</label><br>
+							<input type="text" name="mail" id="mail" placeholder="E-mail">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="rfc">R.F.C.</label><br>
+							<input type="text" name="rfc" id="rfc" placeholder="R.F.C">
+						</td>
+						<td>
+							<label for="codigoPostal">C.P.</label><br>
+							<input type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo postal">
+						</td>
+						<td>
+							<input type="checkbox" name="acepto" id="acepto">
+                			<label for="acepto">Acepto los terminos y condiciones</label><br/>
+
+                			<input type="submit" name="enviar" id="enviar" value="Enviar Datos">
+                			<input type="Reset" name="reestablecer" id="reestablecer" value="Reestablecer">
+						</td>
+					</tr>
+				</table>
+		</fieldset>
+	</form>
+	<h3 style="text-align: right;">Febrero 2025, SLP</h3>
+
+</body>
+</html>
