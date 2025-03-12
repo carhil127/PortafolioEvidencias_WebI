@@ -1,0 +1,37 @@
+/*trabajar con una hoja de estilos Externa
+*/
+body{
+    background-color:  #a9baac ;
+    font-family: arial, verdana, sans-serif;
+}
+table{
+    width: 90%;
+    margin: auto;
+    border: 1px solid    #f9f9f9  ;
+    border-collapse: collapse;
+    caption-side: bottom;
+
+}
+th,td{
+    border:1px solid #f9f9f9;
+}
+table tr:nth-child(odd){
+    background-color:  #cbda9c ;
+}
+table tr:nth-child(even){
+    background-color:   #537251  ;
+    color: aliceblue;
+}
+th{
+    background-color:  #556e66   ;
+    color: aliceblue;
+    padding: 14px;
+}
+td{
+    padding: 12px;
+    text-align: justify;
+}
+table tr:hover{
+    background-color:   #2f4127  ;
+    color: aliceblue;
+}
