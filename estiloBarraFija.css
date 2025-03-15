@@ -1,0 +1,53 @@
+.capa1{
+    margin-left: 25%;
+    padding: 12px;
+    height: 1000px;
+}
+
+ul{
+    list-style-type: none;/*qutar las viñetas de la lista*/
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;/*fijar posicion de la barra*/
+    background-color: #1e051e;
+    overflow: auto;/*btones de desplasamiento*/
+}
+li a{
+    display: block;/*elemetos en bloque*/
+    background-color:  #1e051e   ;
+    padding: 8px 10px;
+    text-decoration: none;
+    color:  #efccef ;
+
+}
+li a:hover{
+    background-color:  #cf76d1 ;
+    color: #1e051e;
+}
+li a.activo{
+    background-color:  #641966 ;
+    color:  whitesmoke ;
+}
+li a:hover:not(.activo)  {
+    background-color:  #641966 ;
+    color:  whitesmoke ;
+}
+h1{
+    font-family: "Noto Serif", serif;/*fuente externa, extraida del degundo recuadro*/
+}
+h2{
+    font-family: "Source Code Pro", monospace;
+    /*segunda fuente externa*/
+}
+
+@font-face {
+    font-family:"parrafos" ;
+    src: url(PT_Sans_Narrow/PTSansNarrow-Regular.ttf) format("truetype");
+    /*nombre de la carpeta/nombre de la fuente dentro de la carpeta*/
+}
+p{
+    font-family: "parrafos";/*nombre que le asignamos a la fuente externa*/
+    text-align: justify;
+}

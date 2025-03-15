@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;/*qutar las viñetas de la lista*/
+    margin: 0;
+    padding: 0;
+    width: 30%;
+
+}
+li a{
+    display: block;/*elemetos en bloque*/
+    background-color:  #1e051e   ;
+    padding: 8px 10px;
+    text-decoration: none;
+    color:  #efccef ;
+
+}
+li a:hover{
+    background-color:  #cf76d1 ;
+    color: #1e051e;
+}
+li a.activo{
+    background-color:  #641966 ;
+    color:  whitesmoke ;
+}
+li a:hover:not(.activo)  {
+    background-color:  #641966 ;
+    color:  whitesmoke ;
+}
