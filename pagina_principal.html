@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal proyecto</title>
+    <style>
+    .banner { /*Cuadro negro para el banner*/
+      display: flex;
+      /*justify-content: space-between;*/
+      align-items: center;
+      background-color: black;
+      color: white;
+      padding: 5px;
+      height: 95px;
+      width: fit-content;
+      font-family: Arial, sans-serif;
+    }
+    .textodebanner{ /*Controlar el texto del banner*/
+        font-size: 10px;
+        line-height: 0px; /* mejora la altura entre líneas */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* por si acaso el texto queda bajo */
+    }
+    h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #1b542e; /* Verde oscuro */
+    background: white;
+    padding: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px rgba(22, 21, 21, 0.3); /* Sombra ligera */
+    position: absolute;
+     top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+button{
+    border-radius: 20px;
+		border: 2px solid #1b542e;
+		padding: 9px;
+		box-sizing: border-box;
+		margin-top: 10px;
+		background-color: black;
+		color: white;
+        font-size: 15px;
+        cursor: pointer;
+        width: 100px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.enc-derecha {
+            position: absolute; /*Colocar esta parte en una parte exacta de la página, se controlo con top y right, etc*/
+            top: 5px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            align-items: center;
+}
+.enc-derecha img{
+            display: flex;
+            justify-content: flex-end;
+            padding: 1px 0px 1px 80px;
+}
+.enc-izquierda {
+        display: flex;
+        align-items: center;
+}
+.redes img{
+    border-radius: 200px;
+   width: 50px;
+   height: 50px;
+
+}
+.redes{
+    
+    position: absolute; /*Colocar esta parte en una parte exacta de la página, se controlo con top y right, etc*/
+    bottom: 5px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.boton{
+    
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+
+}
+button.boton{
+    width: 170px;
+    
+}
+button.tienda{
+    width: 170px;
+}
+button.sesion{
+    width: 170px;
+}
+    </style>
+</head>
+<body background="Multimedia (1).jpg" style="background-size: 100%; background-attachment: fixed;">
+
+    <header class="banner"> 
+    <div class="enc-izquierda"> <!--Esto es la pare izquierda del encabezado--> 
+        <!--Aquí se inserta la imágen y el texto-->
+        <img src="logo.png" style="height: 90px; margin-right: 10px;">
+        <div class="textodebanner">
+            <h2>STARBUCKS</h2>
+            <h2>COFFEE</h2>
+            <h2>COMPANY.</h2>
+        </div>
+    </div>
+</header> 
+
+    <div class="enc-derecha"> <!--Esto es la pare derecha del encabezado--> 
+        <img src="pin.webp" style="height: 40px; width: 40px;">
+        <button class="tienda">Localizar tienda</button>
+        <button  class="sesion">Iniciar sesión</button>
+        <button class="recompenzas">Rewards</button>
+    </div>
+
+
+
+    <div class="eslogan">
+        <h1>CAFÉ DE <br>
+        ESPECIALIDAD,<br>
+        MOMENTOS<br>
+        INOLVIDABLES.</h1>
+     </div>
+
+     <div >
+        <button class="boton" name="menu" value="Ver Menú">Ver Menú</button>
+     </div>
+
+     <div class="redes">
+        <a href="https://www.facebook.com/StarbucksMexico"><img src="facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/starbucksMex/"><img src="instagram.jfif" alt=""></a>
+        <a href="https://x.com/StarbucksMex"><img src="X.png" alt=""></a>
+        <a href="https://www.youtube.com/user/StarbucksMexico?app=desktop"><img src="youtube.png" alt=""></a>
+     </div>
+</body>
+</html>

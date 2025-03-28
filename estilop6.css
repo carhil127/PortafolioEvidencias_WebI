@@ -1,0 +1,19 @@
+body {
+    background-image: url('Multimedia.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0; 
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #1B542E; /* Verde oscuro */
+    background: white;
+    padding: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+}

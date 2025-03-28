@@ -24,4 +24,5 @@ li a.activo{
 li a:hover:not(.activo)  {
     background-color:  #641966 ;
     color:  whitesmoke ;
+    tex
 }

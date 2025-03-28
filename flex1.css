@@ -1,0 +1,25 @@
+.flex-container{
+    height: 400px;
+    background: #131338;
+    display: flex;/*caja flexible*/
+    /*flex-direction: row;/*Dar formato de fila o columna
+    flex-wrap: wrap;/*ajusar los elemetos al tamao de pagina*/
+    flex-flow: row wrap;/*puede dar lasmsmos funciones que los dos 
+    comandos anteriores*/
+    justify-content: space-evenly;/* center mueven los elementos al cetro; flex end se muestran
+    de la do derecho del monitor y co flex-start muestra los elementos al inicio
+    de la paigina, space-arroud agrega un espaciado afuera de los elementos,
+    space-between agrega un espaciado dentro de los elementos; space evenly los 
+    deja como estavan inicialmente*/
+    align-items: center;/*center centrar verticalmente; flex-end los coloca
+    en el cntro pero abajo; flex-start los coloca en el centro pero arriba,strech
+    alarga la caja donde se ecuentran los elementos*/
+}
+.flex-container div{
+    background-color: #d0e4f5;
+    width: 100px;
+    padding: 15px;
+    margin: 10px;
+    line-height: 10px;
+    text-align: center;
+}

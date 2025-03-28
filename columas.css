@@ -1,0 +1,25 @@
+body{
+    background-color: #e0b3cc;
+}
+.columas{
+    column-count: 3;/*indica cuantas columas se divide el div*/
+    column-gap: 20px;/*espacio en columnas en pixeles*/
+    column-rule-style: solid;/*los bodes entre las columas*/
+    column-rule-color: #bb2983;/*color de la divicion*/
+    column column-rule-width: 2px;/*ancho de la linea*/
+    column-width: 150px;/*ancho de las columas*/
+    columns: 100px 3;/*Ancho y umero de columnas*/
+
+}
+p{
+    text-align: justify;/*alinacion del texto*/
+
+
+}
+.titulo1{
+    column-span: all;/*titulo sobreodas las columnas*/
+}
+#imagen{/*estilo para un id seusa #*/
+    visibility: visible;
+
+}

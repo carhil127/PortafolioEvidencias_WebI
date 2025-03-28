@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction:column ;
+   
+    height:100vh ;/*tamaño de la vista*/
+   
+}
+.encabezado{
+    background: #af4c5d;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: space-between;
+    flex: 1;/*ocupa el espacio restante*/
+   
+}
+.texto{
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid lightcoral;
+    flex: 1;/*ocupar espacio restante*/
+    box-shadow: 10px 10px rgba(219, 128, 158, 0.6) ;/*sombra del recuadro con 2 valores para ajustar la posision 
+    y 1 valor para el clor de la sombra*/
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: #b11630;
+    background:  #df919e ; 
+    padding: 10px;
+}
+@media(max-width:500px){
+    /*tamaño de la ventana, horientacion*/
+    .contenido{ 
+        flex-direction: column;
+    }
+}
