@@ -1,0 +1,53 @@
+.contenedor{
+    position: relative;
+    top: 75px;
+    background: #b095c9;
+    height: 150px;
+    z-index: 2;
+}
+.capa1{
+    position: relative;/*realativo,se mueve de acuerdo alcotenedor
+    e el que esta*/
+    height: 50px;
+    top: 25px;
+    left: 50px;
+    background:lavender ;
+    z-index:1 ;/*hubicar elementos hacia adelante*/
+}
+
+.capa2{
+    position: absolute;
+    background: lavenderblush;
+    right: 50px;
+    z-index: 1;
+    height: 120px;
+    width: 150px;
+
+}
+.capa3{
+    position: absolute;
+    background: lemonchiffon;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+.capa4{
+    position: absolute;
+    background: lightblue;
+    width: 120px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+.capa5{
+    border: 1.5px solid gainsboro;
+    border-radius: 25px;
+    background: lightcyan;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 4;
+}

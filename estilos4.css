@@ -1,0 +1,49 @@
+@font-face {
+    font-family: yunho;
+    src: url(PTSansNarrow-Regular.ttf);
+}
+.capa1{
+    /*borde de un div*/
+    border: 1px solid gray;
+    border-radius: 20px 20px;
+    -moz-border-radius: 20px 40px 10px;
+    -webkit-border-radius: 20px 40px 10px;
+    box-shadow: rgb(20, 0, 0) 5px 5px 10px ;
+    
+}
+.t1{
+    /*sombra de textos*/
+    font-family: yunho;
+    font-size: 45px;
+    text-shadow: rgb(119, 136, 153) 5px 5px 5px;
+    text-align: center;
+
+
+}
+.capa2{
+    /*fondos degradados*/
+    background: linear-gradient(bottom, lavender, lightcyan);
+    backgroud: -moz-linear-gradient(bottom, lavender, lightcyan); 
+    background: -webkit-linear-gradient(bottom, lavender, lightcyan);
+    font-family: yunho;
+    text-align: center;
+}
+.t2{
+    font-family: yunho;
+    font-size: 35px;
+    text-shadow: rgb(119, 136, 153) 5px 5px 5px;
+    text-align: center;
+}
+.capa3{
+    border: 1px solid black;
+    text-align: center;
+    background: radial-gradient(bottom,circle, lightpink 15%, lavender 30%);
+    background: -moz-radial-gradient(bottom, circle, lightpink 15%, lavender 30%) ;
+    background: -webkit-linear-gradient(bottom, circle, lightpink 15%, lavender 30%);
+}
+.t3{
+    font-family: yunho;
+    font-size: 25px;
+    text-shadow: rgb(119, 136, 153) 5px 5px 5px;
+    text-align: center;
+}
