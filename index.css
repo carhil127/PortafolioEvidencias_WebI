@@ -1,0 +1,176 @@
+body{
+    background-image: url(fondoIndex.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@font-face {
+    font-family: "WinkiSans";
+    src: url(Winky_Sans/WinkySans-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+    font-family: "LuxuriousRoman";
+    src: url(Luxurious_Roman/LuxuriousRoman-Regular.ttf) format("truetype");
+
+}
+@font-face{
+    
+    font-family: "Dosis";
+    src: url(Dosis/Dosis-VariableFont_wght.ttf) format("truetype");
+
+}
+@font-face {
+    font-family: SpecialElite;
+    src: url(Special_Elite/SpecialElite-Regular.ttf) format("truetype");
+}
+
+h1{
+    font-family: WinkiSans;
+    text-align: center;
+}
+.titulo1{
+    letter-spacing: 2.5px;
+}
+h2{
+    font-family: WinkiSans;
+    text-align: center;
+}
+h3{
+    font-family: LuxuriousRoman;
+    letter-spacing: 4px;
+    color: #ffd9d9;
+    text-shadow: 2px 2px 3px black;
+    text-align: left;
+}
+h4{
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+p{
+    font-family: Dosis;
+    text-align: justify;
+    color: #d4cfb1;
+}
+.concideraciones{
+    font-family: Dosis;
+    text-align: justify;
+}
+.contenido{
+    font-family: Dosis;
+}
+.practicas{
+    font-family: Dosis;
+    
+}
+li{
+    color: #d4cfb1;
+    text-align: justify;
+    
+}
+li a{
+    text-decoration: none;
+    color: #F4E3B2;
+}
+.contenedor1{
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsla(94, 15%, 19%, 0.733);
+    color: #bd7880;
+    text-shadow: 2px 2px 3px black;
+    border-radius: 20px;
+}
+.contenedor2{
+    background-color: hsla(94, 15%, 19%, 0.733);
+    color: #c79a99;
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    
+    font-family: SpecialElite;
+    border-radius: 20px;
+    
+    padding: 10px;
+    height: auto;
+}
+.biografia{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.mision{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.vision{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.objetivo{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.concideraciones{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.contenido{
+    background-color: hsla(173, 21%, 8%, 0.733);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.practicas{
+    background-color: hsla(6, 93%, 11%, 0.772);
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
