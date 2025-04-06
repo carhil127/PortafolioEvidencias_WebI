@@ -1,0 +1,24 @@
+.hola{
+    font-size: 60px;
+}
+.sueno{
+    font-size: 25px;
+}
+.tit1{
+    font-size: 2cm;
+}
+.tit2{
+    font-size: 55mm;
+}
+.tit3{
+    font-size: 100pt;
+}
+.tit4{
+    font-size: 35pc;
+    color: greenyellow;
+    text-shadow: 100pt 100pt rgba(0, 0, 0, 0.605);
+}
+body{
+    background-color: blanchedalmond;
+    
+}
