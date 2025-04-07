@@ -1,0 +1,76 @@
+body{
+    background-color: #ddd7d7;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 3pc;
+    color: #3b090e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: #c13547;
+    text-align: center;
+    font-size: 1.5pc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    margin-bottom: 20px;
+    background: #954650;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1pc;
+    color: #e8dddd;
+    border: solid #45151b;
+    border-radius: 1.5pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    text-align: center;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    text-align: center;
+}
+.imagenes{
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#fresa{
+    border-radius: 20px;
+    margin-right: 10px;
+    border: dashed #370808;
+    height: 200px;
+    width: 200px;
+}
+#frambuesa{
+    border-radius: 20px;
+    margin-right: 10px;
+    border: dashed #370808;
+    height: 200px;
+    width: 200px;
+}
+#granada{
+    border-radius: 20px;
+    margin-right: 10px;
+    border: dashed #370808;
+    height: 200px;
+    width: 200px;
+}
+#cereza{
+    border-radius: 20px;
+    margin-right: 10px;
+    border: dashed #370808;
+    height: 200px;
+    width: 200px;
+}

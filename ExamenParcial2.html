@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="examenParcial2.css">
+    <title>Examen practico 2do parcial</title>
+</head>
+<body>
+    <h1>Examen Practico Parcial 2</h1>
+    <h4>Rodriguez Cisneros Carhil Chayito</h4>
+    <h4>184352</h4>
+    <div class="but">
+    <button onmouseover="ocultar()" onmouseout="mostrar()"> Galeria de imagenes</button>
+    </div>
+    <div class="imagenes" id="imagenes">
+        <img src="fresa.jpg" id="fresa">
+        <img src="frambuesa.jpg" id="frambuesa">
+        <img src="granada.jpg" id="granada">
+        <img src="cereza.jpg" id="cereza">
+    </div>
+
+    <script type="text/javascript">
+        function ocultar(){
+            document.getElementById("imagenes").style.visibility="hidden";
+        }
+        function mostrar(){
+            document.getElementById("imagenes").style.visibility="visible"
+        }
+
+    </script>
+</body>
+</html>

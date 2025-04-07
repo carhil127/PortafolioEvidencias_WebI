@@ -78,13 +78,13 @@ li a{
     width: 85%;
     margin: 0 auto;
     background-color: hsla(94, 15%, 19%, 0.733);
-    color: #bd7880;
+    color: #e8dddd;;
     text-shadow: 2px 2px 3px black;
     border-radius: 20px;
 }
 .contenedor2{
     background-color: hsla(94, 15%, 19%, 0.733);
-    color: #c79a99;
+    color: #ddd7d7;
     width: 85%;
     margin: 0 auto;
     height: 70px;
