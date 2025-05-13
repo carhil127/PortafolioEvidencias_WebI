@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta random</title>
+    <link rel="stylesheet" type="text/css" href="formularioGrafico.css">
+    
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+   <script type="text/JavaScript" src="FormularioGrafico.js"></script>
+</head>
+<body>
+     <h1>Quiz Random</h1>
+  <form id="quizForm">
+    <div class="question">
+      <label>1. ¿La velocidad de la luz es constante en el vacio?</label><br/>
+      <input type="radio" name="q1" value="correct"> verdadero<br/>
+      <input type="radio" name="q1" value="wrong"> Falso<br/>
+    </div>
+
+    <div class="question">
+      <label>2. ¿Cual es la capital de Italia?</label><br/>
+       <input type="radio" name="q2" value="wrong"> Treintino-Alto Adigio <br/>
+      <input type="radio" name="q2" value="correct"> Roma <br/>
+    </div>
+
+    <div class="question">
+      <label>3. ¿Cual es la estructura mas larga del mundo?</label><br/>
+      <input type="radio" name="q3" value="correct"> Muralla China<br/>
+      <input type="radio" name="q3" value="wrong"> El muro de Trump<br/>
+    </div>
+
+     <div class="question">
+      <label>4. ¿El rio amazonas es el mas largo del mundo?</label><br/>
+      <input type="radio" name="q4" value="correct"> Verdadero<br/>
+      <input type="radio" name="q4" value="wrong"> falso<br/>
+    </div>
+
+     <div class="question">
+      <label>5. ¿Que pintura es de Leonardo Da Vinci</label><br/>
+      <input type="radio" name="q5" value="wrong"> Los Nenufares<br/>
+      <input type="radio" name="q5" value="correct"> Mona Lisa<br/>
+    </div>
+
+    <div class="question">
+      <label>6. ¿Te gusta la univercidad?</label><br/>
+      <input type="radio" name="q6" value="wrong"> no<br/>
+      <input type="radio" name="q6" value="correct"> si<br/>
+    </div>
+
+    <button type="button" onclick="evaluar()">Evaluar</button>
+  </form>
+
+  <div id="resultado"></div>
+  <canvas id="grafico" width="400" height="200"></canvas>
+  <button onclick="generarPDF()">Generar PDF</button>
+</body>
+</html>
