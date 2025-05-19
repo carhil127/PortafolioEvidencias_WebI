@@ -1,0 +1,83 @@
+@font-face {
+    font-family: titulo ;
+    src: url(Poetsen_One/PoetsenOne-Regular.ttf);
+}
+@font-face {
+	font-family: cuerpo;
+	src: url(Jost/Jost-Medium.ttf);
+}
+@font-face {
+	font-family: boton;
+	src: url(Jost/Jost-LightItalic.ttf);
+}
+@font-face {
+	font-family: casilla;
+	src: url(Jost/Jost-Light.ttf);
+}
+@font-face {
+	font-family: resultado;
+	src: url(Jost/Jost-SemiBoldItalic.ttf);
+}
+body{
+    background-color: #f2e0d2;
+    color: #7c3230;
+}
+div{
+    width: 80%;
+		background-color: #f9cbd6;
+		margin: auto;
+        border-radius: 20px 50px;
+}
+.titulo{
+    border-radius: 20px;
+    background-color: #f2afbc;
+    color: #9e182b;
+	font-family: titulo;
+    text-align: center;
+}
+.contenido{
+    border-radius: 20px;
+    border: dotted black;
+    text-align: center;
+	font-family: cuerpo;
+    
+}
+.resultado{
+     border-radius: 20px;
+    border: dotted #9e182b;
+    text-align: center;
+    margin-top: 10px;
+	font-family: resultado;
+}
+input[type=text]{
+		border-radius: 20px;
+		width: 100%;
+		border: 2px solid #9e182b ;
+		padding: 9px;
+		box-sizing: border-box;
+		font-family: casilla;
+		
+	}
+input[type=button]{
+		border-radius: 20px;
+		width: 100%;
+		border: 2px solid #850e35 ;
+		padding: 9px;
+		box-sizing: border-box;
+		margin-top: 10px;
+		background-color: #fff5e4;
+		color: #850e35;
+        margin-bottom: 10px;
+		font-family: boton;
+    }
+input[type=button]:hover{
+		border-radius: 20px;
+		width: 100%;
+		border: 2px solid #fff5e4 ;
+		padding: 9px;
+		box-sizing: border-box;
+		margin-top: 10px;
+		background-color: #9e182b;
+		color: #f9cbd6;
+		font-family: boton;
+	}

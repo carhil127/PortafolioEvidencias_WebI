@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propina</title>
+    <link rel="stylesheet" href="practico_p3.css">
+    <script type="text/javascript" src="practico_p3.js"></script>
+</head>
+<body>
+<div class="general">
+    <div class="titulo">
+        <h1>Calcula tu propina</h1>
+    </div>
+    <div class="contenido">
+        <form>
+            
+            <label>Total a Pagar</label><br>
+            <input type="text" name="pagar" id="pagar" placeholder="total a pagar"><br>
+       
+            <label>Porcentaje a aplicar</label><br>
+            <input type="text" name="porcentaje", id="porcentaje" placeholder="ingrese su porcentaje"> <br>
+        
+            <input class="buton" type="button" name="calculo" id="calculo" value="Realizar calculo" onclick="propina()"><br>
+        </form>
+    </div>
+   
+    
+    <div id="resultado" class="resultado">
+       
+    </div>
+</div> 
+</body>
+</html>
